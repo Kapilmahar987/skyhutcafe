@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Satisfy&family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+:root {
+  --primaryColor: #ec1839;
+  --primaryHoverColor: #b9122c;
+  --secondaryColor: #ec98a5;
+  --bgColor: #f2f2fc;
+  --bgLight: #fdf9ff;
+  --textColor: #302e4d;
+  --textLight: #58567c;
+  --headingColor: #2c4964;
+  --borderColor: #d4cad9;
+  --borderLight: #dfd8e3;
+  --skin-gradient: linear-gradient(97.05deg, #ec1839 3.76%, #d01532 100%);
+  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.15);
+  --shadowAll: 0px 2px 15px rgba(0, 0, 0, 0.15);
+  --shadowAllLight: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  --materialShadow: 0 2.5px 2px -1px rgba(32, 31, 31, 0.45);
+  --line-color: #58567c !important;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
